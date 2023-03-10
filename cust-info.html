@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Information Form</title>
+    <link rel="stylesheet" href="styles/form.css" />
+  </head>
+  <body>
+    <div class="instructions">
+      <p>
+        Please answer the three questions below in order for us to calculate the
+        price of your ticket. :)
+      </p>
+    </div>
+    <div class="form-container">
+      <form
+        action="ticketProcessing"
+        method="post"
+        target="_blank"
+        autocomplete="on"
+      >
+        <div class="question-one">
+          <label class="questions" for="questionone"
+            >What city are you traveling from?</label
+          ><br /><br />
+          <input
+            type="text"
+            id="questionone"
+            name="questionone"
+            class="answers"
+            required
+          />
+          <br />
+        </div>
+        <div class="question-two">
+          <label class="questions" for="questiontwo"
+            >What city are you traveling to?</label
+          ><br /><br />
+          <input
+            type="text"
+            id="questiontwo"
+            name="questiontwo"
+            class="answers"
+            required
+          />
+          <br />
+        </div>
+        <div class="question-three">
+          <label class="questions" for="questionthree"
+            >Please type 1 for First Class or 2 for Economy.</label
+          ><br /><br />
+          <input
+            type="number"
+            id="questionthree"
+            name="questionthree"
+            class="answers"
+            min="1"
+            max="2"
+            required
+          /><br />
+        </div>
+        <div class="submit-button">
+          <input
+            class="continue"
+            type="submit"
+            name="submit"
+            value="Continue"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

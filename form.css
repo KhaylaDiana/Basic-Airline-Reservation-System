@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(to bottom left, rgb(141, 103, 164), rgb(80, 39, 106));
+}
+.instructions {
+  color: rgb(223, 169, 6);
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 65px;
+}
+.form-container {
+  padding-bottom: 155px;
+}
+.error {
+  color: rgb(223, 169, 6);
+}
+.question-one {
+  color: rgb(223, 169, 6);
+  font-size: 18px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+.question-two {
+  color: rgb(223, 169, 6);
+  font-size: 18px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+.question-three {
+  color: rgb(223, 169, 6);
+  font-size: 18px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+.answers {
+  color: rgb(87, 23, 118);
+  height: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: solid;
+  border-color: rgb(223, 169, 6);
+}
+.submit-button {
+  text-align: center;
+  padding-top: 20px;
+}
+.continue {
+  background-color: rgb(223, 169, 6);
+  color: rgb(87, 23, 118);
+  border: solid;
+  border-color: rgb(87, 23, 118);
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 22px;
+}
