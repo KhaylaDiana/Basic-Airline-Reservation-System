@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+}
+.logo-container {
+  background-color: #cccccc;
+  height: 750px;
+  position: relative;
+}
+.logo-picture {
+  width: 100%;
+  height: 100%;
+}
+.logo-button {
+  position: absolute;
+  bottom: 150px;
+  left: 650px;
+  font-size: 25px;
+  background-color: rgb(223, 169, 6);
+  color: rgb(87, 23, 118);
+  height: 70px;
+  width: 200px;
+  border: solid;
+  border-color: rgb(87, 23, 118);
+  border-radius: 35px;
+}
+.contact-container {
+  height: 50px;
+  background-color: rgb(223, 169, 6);
+  color: rgb(87, 23, 118);
+  display: flex;
+  flex-direction: row;
+}
+.contacts {
+  padding-left: 320px;
+  padding-top: 15px;
+  font-size: 20px;
+}
